@@ -1,11 +1,5 @@
-file = open("./data.txt", "r")
-
-
-while True:
-    content=file.readline()
-    if not content:
-        break
-file.close()
+content = [line.strip() for line in open("./example.txt", "r").readlines()]
+print(content)
 
 print("Answer is: ", 0)
 
