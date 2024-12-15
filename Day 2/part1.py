@@ -17,7 +17,7 @@ while True:
         elif i == 1:
             if  int(levels[i]) < last:
                 inc = False
-            if abs(last- int( int(levels[i]))) >= 1 and abs(last- int(levels[i])) <= 3:
+            if abs(last- int(int(levels[i]))) >= 1 and abs(last- int(levels[i])) <= 3:
                 last =  int(levels[i])
             else:
                 safe = False
